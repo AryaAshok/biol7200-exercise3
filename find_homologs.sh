@@ -1,4 +1,5 @@
 #!/bin/bash
+#another test for revert
 
 query_length=$(awk '!/^>/ {n += length($0)} END {print n}' "$1")
 
